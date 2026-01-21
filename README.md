@@ -53,7 +53,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 src/
 ├── app/                     # Next.js app directory and routes
@@ -94,10 +94,9 @@ src/
 │   ├── education.ts
 │   └── contact.ts
 │
-└── types/                   # TypeScript type definitions
-    ├── index.d.ts
-    └── project.ts
-
+└── types/                   # TypeScript type definitions/
+├── ├── index.d.ts
+└── └── project.ts
 
 ### Styling
 
