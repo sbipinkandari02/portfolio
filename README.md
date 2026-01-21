@@ -53,51 +53,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
 
-## Project Structure
-
-src/
-├── app/                     # Next.js app directory and routes
-│   ├── layout.tsx           # Root layout
-│   ├── page.tsx             # Home page
-│   ├── globals.css          # Global styles
-│   ├── about/
-│   │   └── page.tsx
-│   ├── contact/
-│   │   └── page.tsx
-│   └── projects/
-│       └── page.tsx
-│
-├── components/              # Reusable UI components
-│   ├── layout/              # Navbar & Footer
-│   │   ├── Navbar.tsx
-│   │   └── Footer.tsx
-│   ├── sections/            # Page sections
-│   │   ├── Home.tsx
-│   │   ├── About.tsx
-│   │   ├── Experience.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Certifications.tsx
-│   │   ├── Education.tsx
-│   │   └── Contact.tsx
-│   └── ui/                  # UI utilities
-│       ├── Button.tsx
-│       ├── Loading.tsx
-│       └── Cursor.tsx
-│
-├── data/                    # Static content & data
-│   ├── home.ts
-│   ├── about.ts
-│   ├── experience.ts
-│   ├── projects.ts
-│   ├── skills.ts
-│   ├── certifications.ts
-│   ├── education.ts
-│   └── contact.ts
-│
-└── types/                   # TypeScript type definitions/
-├── ├── index.d.ts
-└── └── project.ts
-
 ### Styling
 
 Tailwind CSS is configured for rapid UI development. Customize themes and styles in [tailwind.config.ts](tailwind.config.ts).
