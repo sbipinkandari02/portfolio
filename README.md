@@ -54,23 +54,24 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
 
 ## 📁 Project Structure
+
 src/
-├── app/                    # Next.js app directory and pages
-│   ├── layout.tsx          # Root layout component
-│   ├── page.tsx            # Home page
-│   ├── globals.css         # Global styles
-│   ├── about/              # About page
+├── app/                     # Next.js app directory and routes
+│   ├── layout.tsx           # Root layout
+│   ├── page.tsx             # Home page
+│   ├── globals.css          # Global styles
+│   ├── about/
 │   │   └── page.tsx
-│   ├── contact/            # Contact page
+│   ├── contact/
 │   │   └── page.tsx
-│   └── projects/           # Projects page
+│   └── projects/
 │       └── page.tsx
 │
-├── components/             # Reusable React components
-│   ├── layout/             # Navigation and Footer
+├── components/              # Reusable UI components
+│   ├── layout/              # Navbar & Footer
 │   │   ├── Navbar.tsx
 │   │   └── Footer.tsx
-│   ├── sections/           # Page sections (Home, About, Projects, etc.)
+│   ├── sections/            # Page sections
 │   │   ├── Home.tsx
 │   │   ├── About.tsx
 │   │   ├── Experience.tsx
@@ -78,12 +79,12 @@ src/
 │   │   ├── Certifications.tsx
 │   │   ├── Education.tsx
 │   │   └── Contact.tsx
-│   └── ui/                 # UI utilities (Button, Loading, Cursor, etc.)
+│   └── ui/                  # UI utilities
 │       ├── Button.tsx
 │       ├── Loading.tsx
 │       └── Cursor.tsx
 │
-├── data/                   # Content / data files
+├── data/                    # Static content & data
 │   ├── home.ts
 │   ├── about.ts
 │   ├── experience.ts
@@ -93,9 +94,10 @@ src/
 │   ├── education.ts
 │   └── contact.ts
 │
-└── types/                  # TypeScript type definitions
+└── types/                   # TypeScript type definitions
     ├── index.d.ts
     └── project.ts
+
 
 ### Styling
 
