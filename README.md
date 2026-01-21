@@ -54,21 +54,36 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
 
 ## 📁 Project Structure
-
-\\\
 src/
-├── app/                  # Next.js app directory and pages
-│   ├── layout.tsx       # Root layout component
-│   ├── page.tsx         # Home page
-│   ├── globals.css      # Global styles
-│   ├── about/           # About page
-│   ├── contact/         # Contact page
-│   └── projects/        # Projects page
-├── components/          # Reusable React components
-│   ├── layout/          # Navigation and Footer
-│   ├── sections/        # Page sections (Home, About, etc.)
-│   └── ui/              # UI utilities (Button, Loading, Cursor)
-├── data/                # Content data files
+├── app/                    # Next.js app directory and pages
+│   ├── layout.tsx          # Root layout component
+│   ├── page.tsx            # Home page
+│   ├── globals.css         # Global styles
+│   ├── about/              # About page
+│   │   └── page.tsx
+│   ├── contact/            # Contact page
+│   │   └── page.tsx
+│   └── projects/           # Projects page
+│       └── page.tsx
+│
+├── components/             # Reusable React components
+│   ├── layout/             # Navigation and Footer
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── sections/           # Page sections (Home, About, Projects, etc.)
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Certifications.tsx
+│   │   ├── Education.tsx
+│   │   └── Contact.tsx
+│   └── ui/                 # UI utilities (Button, Loading, Cursor, etc.)
+│       ├── Button.tsx
+│       ├── Loading.tsx
+│       └── Cursor.tsx
+│
+├── data/                   # Content / data files
 │   ├── home.ts
 │   ├── about.ts
 │   ├── experience.ts
@@ -77,20 +92,10 @@ src/
 │   ├── certifications.ts
 │   ├── education.ts
 │   └── contact.ts
-└── types/               # TypeScript type definitions
-
-## Customization
-
-### Update Portfolio Content
-
-All portfolio content is managed through data files in \src/data/\:
-
-- **Home** — Edit [src/data/home.ts](src/data/home.ts) to update introduction
-- **Projects** — Edit [src/data/projects.ts](src/data/projects.ts) to showcase your work
-- **Skills** — Edit [src/data/skills.ts](src/data/skills.ts) to list your expertise
-- **Experience** — Edit [src/data/experience.ts](src/data/experience.ts) for work history
-- **Education** — Edit [src/data/education.ts](src/data/education.ts) for academic background
-- **Certifications** — Edit [src/data/certifications.ts](src/data/certifications.ts) for credentials
+│
+└── types/                  # TypeScript type definitions
+    ├── index.d.ts
+    └── project.ts
 
 ### Styling
 
