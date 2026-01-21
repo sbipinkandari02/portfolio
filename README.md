@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# Portfolio — Bipin Kandari
+
+A modern, responsive portfolio website built with [Next.js](https://nextjs.org), [React](https://react.dev), and [Tailwind CSS](https://tailwindcss.com). This portfolio showcases professional experience, projects, skills, certifications, and education with smooth animations and an elegant user interface.
+
+## Features
+
+- **Responsive Design** — Mobile-first approach with Tailwind CSS
+- **Smooth Animations** — Framer Motion for elegant transitions and interactions
+- **Multiple Sections** — Home, About, Experience, Projects, Certifications, Education, and Contact
+- **Data-Driven** — Easily manage content through organized data files
+- **Modern Stack** — Built with Next.js 14, React 18, and TypeScript
+- **Performance Optimized** — Server-side rendering and code splitting
+- **Icon Support** — React Icons for consistent iconography
+
+## Sections
+
+- **Home** — Introduction and call-to-action
+- **About** — Professional background and expertise
+- **Experience** — Work history and achievements
+- **Projects** — Showcase of notable projects with links
+- **Certifications** — Professional certifications and credentials
+- **Education** — Academic background
+- **Contact** — Contact information and messaging
+
+## Tech Stack
+
+- **Framework** — [Next.js 14](https://nextjs.org)
+- **UI Library** — [React 18](https://react.dev)
+- **Styling** — [Tailwind CSS 4](https://tailwindcss.com)
+- **Animations** — [Framer Motion](https://www.framer.com/motion)
+- **Icons** — [React Icons](https://react-icons.github.io/react-icons)
+- **Language** — [TypeScript](https://www.typescriptlang.org)
+- **Linting** — [ESLint](https://eslint.org)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 20.9.0 or higher
+- npm or yarn package manager
 
-```bash
+### Installation
+
+1. Clone the repository:
+git clone <repository-url>
+cd portfolio
+
+2. Install dependencies:
+npm install
+
+3. Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+\\\
+src/
+├── app/                  # Next.js app directory and pages
+│   ├── layout.tsx       # Root layout component
+│   ├── page.tsx         # Home page
+│   ├── globals.css      # Global styles
+│   ├── about/           # About page
+│   ├── contact/         # Contact page
+│   └── projects/        # Projects page
+├── components/          # Reusable React components
+│   ├── layout/          # Navigation and Footer
+│   ├── sections/        # Page sections (Home, About, etc.)
+│   └── ui/              # UI utilities (Button, Loading, Cursor)
+├── data/                # Content data files
+│   ├── home.ts
+│   ├── about.ts
+│   ├── experience.ts
+│   ├── projects.ts
+│   ├── skills.ts
+│   ├── certifications.ts
+│   ├── education.ts
+│   └── contact.ts
+└── types/               # TypeScript type definitions
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Update Portfolio Content
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All portfolio content is managed through data files in \src/data/\:
 
-## Deploy on Vercel
+- **Home** — Edit [src/data/home.ts](src/data/home.ts) to update introduction
+- **Projects** — Edit [src/data/projects.ts](src/data/projects.ts) to showcase your work
+- **Skills** — Edit [src/data/skills.ts](src/data/skills.ts) to list your expertise
+- **Experience** — Edit [src/data/experience.ts](src/data/experience.ts) for work history
+- **Education** — Edit [src/data/education.ts](src/data/education.ts) for academic background
+- **Certifications** — Edit [src/data/certifications.ts](src/data/certifications.ts) for credentials
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS is configured for rapid UI development. Customize themes and styles in [tailwind.config.ts](tailwind.config.ts).
+
+## Contact
+
+For inquiries or feedback about this portfolio, please refer to the contact section on the website.
