@@ -52,5 +52,6 @@ export interface HomeData {
   description: string;
   ctaText?: string;
   ctaTarget?: string;
+  imageUrl: string;
 }
 

@@ -2,8 +2,10 @@ import { HomeData } from "@/types";
 
 export const homeData: HomeData = {
   name: "Bipin Kandari",
-  role: "Software Developer | React | Node.js",
-  description: "I build scalable web applications and user interfaces with modern technologies like React, Next.js, Node.js, and MongoDB. Passionate about clean code, high performance, and delivering impactful solutions.",
+  role: "Full-Stack Software Developer | React | Next.js | Node.js | MongoDB",
+  description: 
+    "I develop high-performance, scalable web applications using React, Next.js, Node.js, MongoDB, and TypeScript. Experienced in building responsive UIs, RESTful APIs, and integrating third-party services. Skilled in Agile environments using Jira, writing unit & integration tests with Jest, and collaborating effectively with cross-functional teams to deliver clean, maintainable, and impactful solutions.",
   ctaText: "View My Work",
   ctaTarget: "projects", // HTML id of Projects section
+  imageUrl: "/profile.png", // example: portfolio or GitHub link
 };
