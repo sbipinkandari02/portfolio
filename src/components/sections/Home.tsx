@@ -46,29 +46,6 @@ export default function Home() {
           {homeData.role}
         </p>
         <p className="text-gray-600 mb-8">{homeData.description}</p>
-
-        {homeData.ctaText && homeData.ctaTarget && (
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block"
-          >
-            <Link
-              href={`#${homeData.ctaTarget}`}
-              scroll={false}
-              className="relative px-8 py-3 rounded-lg border border-gray-300 font-medium overflow-hidden"
-            >
-              {/* Animated text */}
-              <motion.span
-                className="relative z-10 text-gray-800"
-                whileHover={{ color: "#EF4444" }} // Tailwind RED-500
-                transition={{ duration: 0.3 }}
-              >
-                {homeData.ctaText}
-              </motion.span>
-            </Link>
-          </motion.div>
-        )}
       </motion.div>
     </motion.section>
   );
