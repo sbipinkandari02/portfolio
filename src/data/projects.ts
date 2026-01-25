@@ -7,7 +7,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer",
     backend: "https://github.com/sbipinkandari02/Ecommerce-nodeServer",
     frontend: "https://github.com/sbipinkandari02/Ecommerce-fontend",
-    demo: "https://ecommerce-fontend-tc8w-dzzslrm7a-shopspheres-projects-f3ee8995.vercel.app/",
+    demo: "https://ecommerce-fontend-tc8w.vercel.app",
     description: [
       "Built a scalable e-commerce admin panel with dashboards and charts using React and TypeScript.",
       "Implemented role-based access control and secured admin routes.",
