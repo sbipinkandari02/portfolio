@@ -5,7 +5,7 @@ import Footer from "@/components/layout/Footer";
 import Cursor from "@/components/ui/Cursor";
 
 export const metadata: Metadata = {
-  title: "Bipin Kandari | React & Node.js Developer",
+  title: "Software Developer | JavaScript | React | Node.js | Next.js | Microfrontend | Microservices",
   description:
     "Portfolio of Bipin Kandari, a React, Next.js & Node.js developer with 4+ years of experience building scalable web applications.",
   keywords: [

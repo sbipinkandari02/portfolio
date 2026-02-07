@@ -3,6 +3,19 @@ import { Experience } from "@/types";
 
 export const experience: Experience[] = [
   {
+    company: "Infomo Global",
+    role: "Software Development Engineer",
+    duration: "Feb 2026 – Present",
+    location: "Uttarakhand, India",
+    description: [
+      "Developing and maintaining scalable AdTech products including DSP, SSP, and CDP platforms using React.js and Redux.",
+      "Building high-performance, reusable UI components with React.js to handle real-time ad data and improve user experience.",
+      "Optimizing application performance and state management for data-heavy advertising dashboards.",
+      "Collaborating with cross-functional teams to design and deliver features for programmatic advertising platforms.",
+      "Ensuring UI scalability, responsiveness, and reliability across complex AdTech workflows.",
+    ],
+  },
+  {
     company: "Evon Technologies Pvt Ltd",
     role: "Software Developer",
     duration: "Mar 2022 – May 2025",
